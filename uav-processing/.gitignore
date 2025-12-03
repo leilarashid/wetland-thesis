@@ -1,0 +1,24 @@
+# Ignore point clouds
+*.las
+*.laz
+*.ply
+
+# Ignore raster exports
+*.tif
+*.tiff
+*.aux.xml
+
+# Ignore large raw data directories
+data/
+ptclouds/
+raw_data/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter checkpoint folders
+.ipynb_checkpoints/
